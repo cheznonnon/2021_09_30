@@ -12,6 +12,45 @@
 Change Log
 
 
+2021/09/30 #1 : 2021/10/01
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Multi-Layer : Fill
+			OLD : garbages are displayed
+			NEW : fixed
+			[!] : data are safe
+		Multi-Layer : Fill : Whole Grab
+			OLD : not working
+			NEW : handled as error
+		Multi-Layer : Save
+			OLD : unused data are made internally
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint
+		INI : "fast_mode"
+			NEW : kill switch for fast mode
+			[!] : default is on
+			[!] : turn off when you meet troubles
+			[!] : but too heavy when off
+		Resizer : when tweaked
+			NEW : wait available
+			[!] : preview will be applied after 500 msec.
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2021/09/30
 
 
