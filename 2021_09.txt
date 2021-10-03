@@ -28,7 +28,7 @@ BUGFIX
 			NEW : a dialog appears
 			[!] : it's not a crash
 			[!] : when malloc() returns NULL
-			[!] : 32-bit versions (ANIS/Unicode) have 3GB limit
+			[!] : 32-bit versions (ANSI/Unicode) have 3GB limit
 
 
 NEW_FEATURE
