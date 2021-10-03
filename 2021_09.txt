@@ -12,6 +12,40 @@
 Change Log
 
 
+2021/09/30 #2 : 2021/10/03
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Hamburger Button
+			OLD : cursor flickers
+			NEW : fixed
+			[?] : debug code is used
+		when system memory is insufficient
+			OLD : crash???
+			NEW : a dialog appears
+			[!] : it's not a crash
+			[!] : when malloc() returns NULL
+			[!] : 32-bit versions (ANIS/Unicode) have 3GB limit
+
+
+NEW_FEATURE
+
+
+	neutral/memory.c
+		when exit( 0 );
+			OLD : silently exits
+			NEW : a dialog appears
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2021/09/30 #1 : 2021/10/01
 
 
